@@ -28,9 +28,9 @@ from pprint import pprint
 
 statement = "The Flintstones Rock"
 
-def char_counter(your_string: dict):
+def char_counter(s: str):
     result = {}
-    for char in your_string:
+    for char in s:
         if char.isalpha():
             result[char] = result.get(char, 0) + 1
     return result

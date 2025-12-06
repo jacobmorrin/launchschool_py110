@@ -41,14 +41,3 @@ def swap(s):
     swapped_string = ' '.join(swapped_lst)
 
     return swapped_string
-
-
-print(swap('Oh what a wonderful day it is'))
-print(swap('Abcde'))
-print(swap('a'))
-
-print(swap('Oh what a wonderful day it is')
-      == "hO thaw a londerfuw yad ti si")  # True
-print(swap('Abcde') == "ebcdA")            # True
-print(swap('a') == "a")                    # True
-

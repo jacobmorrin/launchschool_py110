@@ -44,14 +44,11 @@ def calculate_leftover_blocks(n):
     blocks_remaining = n
     next_layer = 1
     blocks_required = next_layer ** 2
-    total_layers = 0
 
-    while blocks_remaining >= blocks_required: #9 #9
+    while blocks_remaining >= blocks_required:
         blocks_remaining = blocks_remaining - blocks_required
-        total_layers += 1
-        next_layer += 1 #2
-        blocks_required = next_layer ** 2 # 4
-        print(f'Blocks Remaining: {blocks_remaining}')
+        next_layer += 1
+        blocks_required = next_layer ** 2
 
     return blocks_remaining
 

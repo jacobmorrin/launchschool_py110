@@ -24,10 +24,9 @@ Algorithm:
 
 """
 import math
-import statistics
 
 def multiplicative_average(lst):
-    return f'{((math.prod(lst) / len(lst))):.3f}'
+    return f'{math.prod(lst) / len(lst):.3f}'
 
 print(multiplicative_average([3, 5]) == "7.500")
 print(multiplicative_average([2, 5, 8]) == "26.667")

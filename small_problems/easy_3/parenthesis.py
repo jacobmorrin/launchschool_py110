@@ -24,8 +24,6 @@ ALGORITHM:
 def is_balanced(s):
     open_count = 0
     closed_count = 0
-    start = 0
-    s_length = len(s)
 
     for char in s:
         if char == '(':

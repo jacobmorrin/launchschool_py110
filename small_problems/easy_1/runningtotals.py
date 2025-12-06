@@ -31,6 +31,7 @@ initialize sum
 -start loop over
 """
 
+# Solution 1
 def running_total(lst):
     total = 0
     result = []
@@ -38,6 +39,16 @@ def running_total(lst):
     for num in lst:
         total += num
         result.append(total)
+
+    return result
+
+# Solution 2
+def running_total(lst):
+    result = []
+    result.append(lst[0])
+    
+    for idx in range(1, len(lst)):
+        result.append(sum(lst[0:idx]))
 
     return result
 

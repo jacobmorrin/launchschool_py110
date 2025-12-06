@@ -23,12 +23,13 @@ Algorithm:
 - initialize empty result lst
 - Set lst_length to the length of the list passed in
 
-- If its even
-    - half_lst length = lst_length // 2
+- If its even the length of both lists will be just 
+ a matter of integer division
 
-- If it's odd
-    - first_lst_length = lenth - (length // 2)
-    - second_lst_length = length // 2
+- If its odd, the first list should be the longer
+
+- Can use a helper function to create the lists with 
+different loops depending on whether its odd or even
 
 """
 def half_lst_maker(lst, length):

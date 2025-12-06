@@ -16,7 +16,7 @@ ALGORITHM:
 def sort_lst(items):
     return sorted(items)
 
-def sort_lst_reverse(your_lst):
+def sort_lst_reverse(items):
     return sorted(items, reverse=True)
 
 lst = [10, 9, -6, 11, 7, -16, 50, 8]

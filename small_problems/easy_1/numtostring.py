@@ -48,7 +48,6 @@ def integer_length(num):
     while num != 0:
         num = num // (10)
         result += 1
-    print(result)
     return result - 1
 
 def digit_lst_maker(num, int_length):

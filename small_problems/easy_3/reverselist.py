@@ -32,12 +32,12 @@ Algorithm:
 - Pop the last one and put it in the 0, 1, 2 position
 """
 def reverse_list(lst):
+    n = len(lst)
     count = 0
 
-    while count < len(lst):
+    while count < n:
         lst.insert(count, lst.pop())
         count += 1
-        print(lst)
 
     return lst
 

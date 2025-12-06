@@ -8,5 +8,5 @@ lst = [['b', 'c', 'a'], [2, 11, -3], ['blue', 'black', 'green']]
 # print(lst)
 
 # With comprehension
-sorted_lst = [sorted(item) for item in lst]
+sorted_lst = [item.sort() for item in lst]
 print(sorted_lst)

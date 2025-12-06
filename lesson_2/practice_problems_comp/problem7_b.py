@@ -9,6 +9,6 @@ lst = [[2], [3, 5, 7, 12], [9], [11, 15, 18]]
 
 lst = [[2], [3, 5, 7, 12], [9], [11, 15, 18]]
 
-new_lst = [[num for num in sublst if num % 3 ==0] for sublst in lst]
+new_lst = [[num for num in sublst if num % 3 == 0] for sublst in lst]
     
 print(new_lst)

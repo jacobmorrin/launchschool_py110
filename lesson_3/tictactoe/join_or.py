@@ -17,9 +17,9 @@ ALGORITHM:
 - Print each element of a list followed by punc, except for the last element
 
 """
-def join_or(lst = [], punc = ',', and_or = 'or'):
+def join_or(lst = [], delimiter = ',', word = 'or'):
     result = ''
-    punc = punc.strip()
+    delimiter = delimiter.strip()
     and_or = and_or.strip()
     
     if not lst:
@@ -27,12 +27,12 @@ def join_or(lst = [], punc = ',', and_or = 'or'):
     elif len(lst) == 1:
         return f'{lst[0]}'
     elif len(lst) == 2:
-        return f'{lst[0]} {and_or} {lst[1]}'
+        return f'{lst[0]} {word} {lst[1]}'
     else:
         for idx, item in enumerate(lst):
             if idx == len(lst) - 1:
-                result += f'{and_or} {item}'
+                result += f'{word} {item}'
             else:
-                result += f'{item}{punc} '
+                result += f'{item}{delimiter} '
     
     return result

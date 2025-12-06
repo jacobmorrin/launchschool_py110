@@ -1,7 +1,6 @@
 
 DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-
 def signed_integer_to_string(number):
     result = ''
     sign = sign_finder(number)
@@ -14,7 +13,6 @@ def signed_integer_to_string(number):
     result = sign + result
     
     return result or '0'
-
 
 def sign_finder(number):
     sign = ''

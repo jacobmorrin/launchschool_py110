@@ -23,23 +23,10 @@ Algorithm:
         - Index position becomes index position + 1
 
 
-[t, h, a, t]
-[s, t, r, i, n, g] .pop(0)
-[t, r, i, n, g]
-        
-
-
-t moves to 1 
-h moves to 0 #htat
-
-t moves to 2
-a moves to 1 #hatt
-
-last t moves to 3 
-t moves to 2 #hatt
-
--Loop through the string by index
-- if length is 
+[w, h, a, t]
+[h, w, a, t]
+[h, a, w, t]
+[h, a, t, w]
 
 """
 

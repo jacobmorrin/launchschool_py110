@@ -1,12 +1,9 @@
 """
-Problem:
+
 Given an unordered list and the information that exactly one value 
 in the list occurs twice (every other value occurs exactly once), 
 determine which value occurs twice. Write a function that finds and 
 returns the duplicate value.
-
-Algorithm: 
-- Create a dictionary
 
 """
 

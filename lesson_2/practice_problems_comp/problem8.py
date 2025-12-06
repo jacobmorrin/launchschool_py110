@@ -44,6 +44,6 @@ def fruit_or_veggie(dictionary):
     elif dictionary['type'] == 'fruit':
         return [color.capitalize() for color in dictionary['colors']]
 
-new_lst = [fruit_or_veggie(info) for food, info in dict1.items()]
+new_lst = [fruit_or_veggie(info) for info in dict1.values()]
 
 print(new_lst)
